@@ -118,10 +118,9 @@ class LoginScreen extends StatelessWidget {
                             {
                              if(formKey.currentState!.validate())
                             {
-                            // ShopLoginCubit.get(context).userLogin(
-                            //  email: emailController.text,
-                            //  password: passwordController.text,
-                            // );
+                           
+                            
+         
                               print('ok');
                                 }
                              },
