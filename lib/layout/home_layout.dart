@@ -100,7 +100,7 @@ class HomeLayOut extends StatelessWidget {
                                 label: 'Drug Name',
                                 validate: (String? value) {
                                   if (value!.isEmpty) {
-                                    return 'Drug Name not be empty';
+                                    return 'Drug Name must not be empty';
                                   }
                                   return null;
                                 },
@@ -115,7 +115,7 @@ class HomeLayOut extends StatelessWidget {
                                 label: 'Doctor Name',
                                 validate: (String? value) {
                                   if (value!.isEmpty) {
-                                    return 'Doctor Name not be empty';
+                                    return 'Doctor Name must not be empty';
                                   }
                                   return null;
                                 },
