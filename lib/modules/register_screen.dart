@@ -117,17 +117,7 @@ class RegisterScreen extends StatelessWidget {
                                 return null;
                               }
                             },
-                            //onSubmit: (value)
-                            //{
-                            //  if(formKey.currentState!.validate())
-                            //  {
-                                // ShopLoginCubit.get(context).userLogin(
-                                //  email: emailController.text,
-                                //  password: passwordController.text,
-                                // );
-                            //    print('ok');
-                            //  }
-                            //},
+                          
                             label: 'Password',
                             prefix: Icons.lock_outline,
                             isPssword: IhealthCubit.get(context).isPassword,
@@ -150,7 +140,7 @@ class RegisterScreen extends StatelessWidget {
                             {
                               if (value!.isEmpty)
                               {
-                                return 'Password enter your phone number';
+                                return 'Please enter your phone number';
                               }
 
                               else
