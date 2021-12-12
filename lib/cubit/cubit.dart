@@ -47,7 +47,7 @@ class IhealthCubit extends Cubit<IhealthStates>
   }
 
 
-  // Login Screen and Register
+ 
 
 
   IconData suffix = Icons.visibility_outlined;
